@@ -50,7 +50,7 @@ For my individual development and testing process, I implemented and tested the 
 
 
 ##  INDIVIDUAL RESPONSIBILITY
-I was responsible – Pet Management Module**.
+I was responsible – Pet Management Module.
 
 ### Backend / Business Logic (PetService)
 The following functionalities were implemented and tested by me:
