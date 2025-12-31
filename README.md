@@ -35,11 +35,8 @@ Instead of relying solely on drag-and-drop tools, I implemented the **Add Pet Di
 
 
 ## MY CONTRIBUTIONS (RÜMEYSA AYHAN - 23050151015) 
-#  Pet Shelter Management System  
-**AYBU – CENG 201 Object Oriented Programming Project**
-
-##  Project Overview
-This project is a **Pet Shelter Management System** developed as part of the  
+##  PROJECT OVERVIEW
+THIS project is a **Pet Shelter Management System** developed as part of the  
 **CENG 201 – Object Oriented Programming** course at Ankara Yıldırım Beyazıt University.
 
 The project is implemented in **C++** following **object-oriented programming principles** and a **layered architecture** based on the **Entity–Service–Controller** design.
@@ -65,8 +62,8 @@ The following functionalities were implemented and tested by me:
 
  
 These operations are part of the service layer and are independent from the GUI technology.
-##  Development & Testing Environment
-### Individual macOS Implementation (Testing)
+##  DEVELOPMENT & TESTING ENVIRONMENT
+### INDIVIDUAL MACOS IMPLEMENTATION (TESTING)
 - During my personal development process, I implemented and tested the Pet Management module on **macOS**.
 - User interaction was provided via **macOS native dialogs** using **AppleScript (osascript)**.
 - This implementation was used:
