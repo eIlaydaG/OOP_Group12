@@ -66,6 +66,8 @@ These operations are part of the service layer and are independent from the GUI 
   - For testing backend correctness
   - To validate service-layer logic
   - To demonstrate GUI-independent design
+ 
+
 **Note:**  
 The macOS dialog-based interface was used **only for individual development and testing purposes**.  
 The final project GUI remains **Qt-based**.
