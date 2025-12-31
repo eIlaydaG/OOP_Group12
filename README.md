@@ -36,11 +36,7 @@ Instead of relying solely on drag-and-drop tools, I implemented the **Add Pet Di
 
 ## MY CONTRIBUTIONS (RÜMEYSA AYHAN - 23050151015) 
 ##  PROJECT OVERVIEW
-THIS project is a **Pet Shelter Management System** developed as part of the  
-**CENG 201 – Object Oriented Programming** course at Ankara Yıldırım Beyazıt University.
-
 The project is implemented in **C++** following **object-oriented programming principles** and a **layered architecture** based on the **Entity–Service–Controller** design.
-
 As a group project, the **main graphical user interface (GUI) of the application was implemented using the Qt Framework**.
 
 For my individual development and testing process, I implemented and tested the Pet Management functionality on **macOS** using **native dialog-based user interaction**. This allowed me to verify the correctness of the backend logic independently from the main Qt interface.
