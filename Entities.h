@@ -3,7 +3,7 @@
 
 #include <QString>
 
-// --- PERSON 2: PET ENTITY ---
+// --- PET ENTITY ---
 class Pet {
 public:
     int id;
@@ -17,7 +17,7 @@ public:
         : id(i), name(n), species(s), age(a), health(h), status(st) {}
 };
 
-// --- PERSON 3: ADOPTER ENTITY ---
+// ---  ADOPTER ENTITY ---
 class Adopter {
 public:
     int id;
