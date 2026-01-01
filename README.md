@@ -1,18 +1,18 @@
 # OOP_Group12
 # Pet Shelter Management System 
 
-### Group Members:
+## Group Members:
 - Fatih Kocaay  -21050111071
 - Esra İlayda Günidi  -22050151037
 - Arzu Bal  -230501506
 - Rümeysa Ayhan  23050151015
 
-### Instructor and TAs:
+## Instructor and TAs:
 - Instructor: Dr. Abdullah Bülbül (`mabdullahbulbul`)
 - TA 1: Nisa Nur Mercimek (`nisanurmercimek`)
 - TA 2: Cagin Ozkaya (`caginozkaya`)
 
-### Description:
+## Description:
 This repository contains the OOP Group 12 project: “Pet Shelter Management System”.
 The goal of the project is to develop an object-oriented system for managing animals, adopters, and shelter operations efficiently.
 
@@ -20,6 +20,7 @@ The goal of the project is to develop an object-oriented system for managing ani
 
 The project follows a modular design, separating data entities, business logic, and the user interface.
 
+```text
 PetShelterApp/
 ├── CMakeLists.txt              # Project build configuration
 ├── main.cpp                    # Application entry point
@@ -62,8 +63,9 @@ PetShelterApp/
         ├── pets_db.txt         # Storage for pet records
         ├── adopters_db.txt     # Storage for adopter records
         └── shelter_db.txt      # General shelter data
+```
 
-### Contributions of The Group Members:
+## Contributions of The Group Members:
 
 ## My Contributions (Esra İlayda Günindi - 22050151037)
 
