@@ -401,13 +401,12 @@ void MainWindow::onDashboardAddPetClicked() {
             return;
         }
 
-        // --- ID'yi ARTIK DIALOGDAN DEĞİL, SİSTEMDEN ALIYORUZ ---
-        // (Bunun çalışması için Services.h içine generateId eklemiş olmalısın)
+       
         int autoId = petService.generateId();
 
-        // Veriyi ekle
+   
         bool success = petService.addPet(
-            autoId,              // <-- Otomatik ID buraya geliyor
+            autoId,            
             dlg.getName(),
             dlg.getSpecies(),
             dlg.getAge(),
@@ -503,17 +502,17 @@ void MainWindow::onDeletePetClicked() {
 }
 
 void MainWindow::onUpdatePetClicked() {
-    // 1. Tablodan seçim yapılmış mı kontrol et
+  
     int row = tblPets->currentRow();
     if(row < 0) {
         QMessageBox::warning(this, "Select", "Please select a pet from the list to update.");
         return;
     }
 
-    // 2. ID'yi tablodaki seçili satırdan al (Gizli kahraman burası)
+   
     int id = tblPets->item(row, 0)->text().toInt();
 
-    // 3. Güncelleme işlemini yap
+
     bool success = petService.updatePet(
         id,
         txtPetName->text(),
