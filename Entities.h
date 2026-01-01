@@ -29,7 +29,7 @@ public:
         : id(i), fullName(fn), phone(ph), address(addr) {}
 };
 
-// --- PERSON 1: STAFF ENTITY (NEW) ---
+// ---  STAFF ENTITY (NEW) ---
 class Staff {
 public:
     QString username;
