@@ -28,7 +28,7 @@ void AddPetDialog::setupUI() {
     mainLayout->setContentsMargins(40, 30, 40, 40);
     mainLayout->setSpacing(20);
 
-    // --- TITlE ---
+    // --- TITLE ---
     QHBoxLayout *headerLayout = new QHBoxLayout();
     QLabel *iconLabel = new QLabel("🐾");
     iconLabel->setStyleSheet("font-size: 40px;");
