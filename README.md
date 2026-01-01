@@ -170,7 +170,7 @@ In this project, I primarily focused on **GUI development and user interaction e
 
 
 
-##MY CONTRIBUTIONS (Arzu Bal – 23050151006)
+## MY CONTRIBUTIONS (ARZU BAL -23050151006)
 
 In this project, I was responsible for the **Infrastructure and Base Module**, which establishes the foundational structure of the Pet Shelter Management System. My role focused on setting up the core backend components, data management utilities, and basic user interface configuration that other modules depend on.
 
