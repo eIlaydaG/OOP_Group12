@@ -7,7 +7,7 @@
 #include <QTextStream>
 #include <algorithm> // required for deletions
 
-// --- PERSON 1: VALIDATOR CLASS ---
+// ---  VALIDATOR CLASS ---
 class Validator {
 public:
     static bool isNotEmpty(QString text) {
@@ -47,7 +47,7 @@ public:
     }
 };
 
-// --- PERSON 2: PET SERVICE ---
+// ---  PET SERVICE ---
 class PetService {
 private:
     std::vector<Pet> pets;
@@ -126,7 +126,7 @@ public:
     std::vector<Pet> getAllPets() { return pets; }
 };
 
-// --- PERSON 3: ADOPTER SERVICE ---
+// ---  ADOPTER SERVICE ---
 class AdopterService {
 private:
     std::vector<Adopter> adopters;
@@ -181,7 +181,7 @@ public:
     std::vector<Adopter> getAllAdopters() { return adopters; }
 };
 
-// --- PERSON 4: ADOPTION SERVICE ---
+// ---  ADOPTION SERVICE ---
 class AdoptionService {
 public:
     bool performAdoption(int petId, int adopterId, PetService& petService) {
