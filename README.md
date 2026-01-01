@@ -32,6 +32,10 @@ Instead of relying solely on drag-and-drop tools, I implemented the **Add Pet Di
 ### 3. Resource Management (`resources.qrc`)
 * Configured the Qt Resource System to bundle application assets (icons and background images) directly into the executable, ensuring portability and correct path management.
 
+### 4. Design Fidelity & Architectural Alignment
+I prioritized ensuring high fidelity between the implemented software and the **conceptual interface schema** outlined in the project report.
+* **Schema Implementation:** I meticulously translated the theoretical design diagrams from our group report into functional C++ code, ensuring the layout structure and visual hierarchy matched the agreed-upon specifications.
+* **Design Consistency:** By manually coding the UI components, I achieved precise control over the interface, guaranteeing that the final application visually aligned with the team's proposed architectural model.
 
 
 ## MY CONTRIBUTIONS (RÜMEYSA AYHAN - 23050151015) 
