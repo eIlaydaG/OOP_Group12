@@ -181,48 +181,24 @@ Clicking on a column header (e.g., Name, ID) sorts the data accordingly.
 
 ### MY CONTRIBUTIONS (ARZU BAL -23050151006)
 
-In this project, I was responsible for the Infrastructure and Base Module, which establishes the foundational structure of the Pet Shelter Management System. My role focused on setting up the core backend components, data management utilities, and basic user interface configuration that other modules depend on.
+In this project, I was responsible for the **Infrastructure and Base Module**, which establishes the foundational structure of the Pet Shelter Management System. My work focused on preparing a stable, reusable, and well-organized base that other modules could build upon.
 
 #### Backend / Logic Responsibilities
 
-**Project Initialization**
+- Initialized the overall project structure and organized source files to support a clean and maintainable layered architecture.
+- Uploaded, managed, and maintained the project repository on GitHub/GitLab to ensure proper version control and smooth collaborative development.
+- Implemented the core entity classes: **Pet, Adopter, and Staff**, defining class headers, member variables, constructors, and essential getter/setter methods.
+- Designed entity classes to be reusable and directly usable by the service and controller layers without modification.
+- Developed the **DatabaseConnector** class to handle file-based input/output (File I/O) operations, ensuring reliable reading and writing of persistent data.
+- Ensured consistent data formatting and safe data access across the system.
+- Implemented the **Validator** class to perform numeric checks, empty input validation, and basic data consistency rules, improving overall system stability.
 
-Initialized the project structure and organized source files to support a clean and maintainable layered architecture.  
-Uploaded and maintained the project on the GitHub/GitLab repository to support collaborative development and version control.
+#### GUI Base Configuration (Windows Interface)
 
-**Entity Class Implementation**
-
-Implemented the core entity classes: Pet, Adopter, and Staff.  
-Defined class header files, member variables, constructors, and essential getter and setter methods.  
-Ensured that entity classes were reusable and could be directly utilized by service and controller layers.
-
-**Database Management**
-
-Developed the DatabaseConnector class to manage file-based input/output (File I/O) operations.  
-Implemented general-purpose functions for reading data from files and writing updated records back to persistent storage.  
-Ensured consistent data formatting and reliable data access across the system.
-
-**Input Validation**
-
-Implemented the Validator class to validate user inputs.  
-Added checks for numeric values, empty inputs, and basic data consistency rules.  
-Improved system stability by preventing invalid or malformed input from being processed.
-
-**GUI Base Configuration (Windows Interface)**
-
-Worked on the basic Windows-based user interface configuration of the application.  
-Prepared shared visual and structural settings for the interface to ensure consistency across application windows.  
-Configured common interface elements to support user interaction without relying on external GUI frameworks.
+- Worked on the basic **Windows-based user interface configuration** of the application.
+- Prepared shared visual and structural interface settings to ensure consistency across different application windows.
+- Configured common interface elements to support user interaction without relying on external GUI frameworks.
 
 #### Contribution Focus
 
-My contributions focused on building a solid infrastructure layer, ensuring correct data handling and validation, and preparing a stable Windows-based interface foundation. This work enabled other team members to develop higher-level service, controller, and user interaction functionalities efficiently.
-
-Alphabetical sorting for text fields (e.g., Name).  
-Numerical sorting for numeric fields (e.g., ID, Age).
-
-This feature was implemented to allow users to navigate large data sets more easily.
-
-Contribution Focus
-
-My contributions were centered on creating a user-friendly, robust, and responsive GUI, ensuring that user input is validated correctly and interactions are intuitive, safe, and visually clear.
+My contributions focused on building a strong and reliable infrastructure layer, ensuring correct data handling and validation, and providing a stable foundation. This groundwork enabled other team members to efficiently implement higher-level service, controller, and user interaction functionalities.
