@@ -1,5 +1,5 @@
 # OOP_Group12
-# OOP Group 12 – Pet Shelter Management System 
+# Pet Shelter Management System 
 
 ### Group Members:
 - Fatih Kocaay  -21050111071
@@ -15,6 +15,55 @@
 ### Description:
 This repository contains the OOP Group 12 project: “Pet Shelter Management System”.
 The goal of the project is to develop an object-oriented system for managing animals, adopters, and shelter operations efficiently.
+
+## Project Structure
+
+The project follows a modular design, separating data entities, business logic, and the user interface.
+
+PetShelterApp/
+├── CMakeLists.txt              # Project build configuration
+├── main.cpp                    # Application entry point
+├── resources.qrc               # Resource file (Icons & Images)
+│
+├── src/                        # SOURCE CODE
+│   │
+│   ├── models/                 # Data Entities
+│   │   └── Entities.h          # Data class definitions
+│   │       ├── class Pet       # Pet attributes (ID, Name, Species, Age, Health)
+│   │       ├── class Adopter   # Adopter details
+│   │       └── class Staff     # Staff authentication details
+│   │
+│   ├── logic/                  # Business Logic & Services
+│   │   ├── Services.h          # Main Service Manager
+│   │   │   ├── class PetService        # Manages pet inventory (CRUD operations)
+│   │   │   ├── class AdopterService    # Manages adopter records
+│   │   │   ├── class AdoptionService   # Handles the adoption process logic
+│   │   │   ├── class DatabaseConnector # File I/O operations (TXT database)
+│   │   │   └── class Validator         # Input validation helpers
+│   │   │
+│   │   └── ShelterLogic.h      # Alternative Logic Layer
+│   │
+│   └── views/                  # User Interface (GUI)
+│       ├── MainWindow          # Main Application Dashboard
+│       │   ├── mainwindow.ui   # UI Design file (XML)
+│       │   ├── mainwindow.h    # Main Window class header
+│       │   └── mainwindow.cpp  # Main Window logic & signal-slots
+│       │
+│       └── Dialogs             # Pop-up Windows
+│           ├── addpetdialog.h  # Add Pet Dialog header
+│           └── addpetdialog.cpp# Add Pet Dialog logic
+│
+└── assets/                     # EXTERNAL ASSETS
+    ├── images/                 # Visual Assets
+    │   ├── login_icon.png      # Login screen icon
+    │   └── dashboard_bg.jpg    # Dashboard background image
+    │
+    └── data/                   # File-Based Database
+        ├── pets_db.txt         # Storage for pet records
+        ├── adopters_db.txt     # Storage for adopter records
+        └── shelter_db.txt      # General shelter data
+
+### Contributions of The Group Members:
 
 ## My Contributions (Esra İlayda Günindi - 22050151037)
 
