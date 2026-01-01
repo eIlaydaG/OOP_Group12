@@ -168,6 +168,44 @@ In this project, I primarily focused on **GUI development and user interaction e
 
 - Clicking on a column header (e.g., **Name, ID**) sorts the data accordingly.
 
+
+
+##MY CONTRIBUTIONS (Arzu Bal – 23050151006)
+
+In this project, I was responsible for the **Infrastructure and Base Module**, which establishes the foundational structure of the Pet Shelter Management System. My role focused on setting up the core backend components, data management utilities, and basic user interface configuration that other modules depend on.
+
+Backend / Logic Responsibilities
+
+Project Initialization  
+- Initialized the project structure and organized source files to support a clean and maintainable layered architecture.  
+- Uploaded and maintained the project on the GitHub/GitLab repository to support collaborative development and version control.
+
+Entity Class Implementation  
+- Implemented the core entity classes: `Pet`, `Adopter`, and `Staff`.  
+- Defined class header files, member variables, constructors, and essential getter and setter methods.  
+- Ensured that entity classes were reusable and could be directly utilized by service and controller layers.
+
+Database Management  
+- Developed the `DatabaseConnector` class to manage **file-based input/output (File I/O)** operations.  
+- Implemented general-purpose functions for reading data from files and writing updated records back to persistent storage.  
+- Ensured consistent data formatting and reliable data access across the system.
+
+Input Validation  
+- Implemented the `Validator` class to validate user inputs.  
+- Added checks for numeric values, empty inputs, and basic data consistency rules.  
+- Improved system stability by preventing invalid or malformed input from being processed.
+
+GUI Base Configuration (Windows Interface)
+
+- Worked on the basic **Windows-based user interface configuration** of the application.  
+- Prepared shared visual and structural settings for the interface to ensure consistency across application windows.  
+- Configured common interface elements to support user interaction without relying on external GUI frameworks.
+
+Contribution Focus
+
+My contributions focused on building a solid infrastructure layer, ensuring correct data handling and validation, and preparing a stable Windows-based interface foundation. This work enabled other team members to develop higher-level service, controller, and user interaction functionalities efficiently.
+
+
 - Alphabetical sorting for text fields (e.g., Name).
 
 - Numerical sorting for numeric fields (e.g., ID, Age).
