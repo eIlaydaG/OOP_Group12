@@ -64,6 +64,8 @@ PetShelterApp/
         ├── adopters_db.txt     # Storage for adopter records
         └── shelter_db.txt      # General shelter data
 ```
+## Project Presentation Video
+- [Watch the video on Google Drive]:  https://drive.google.com/file/d/1DGZJn9hFwHZZhum5OyLnTmLRZ6xDJqzw/view?usp=sharing
 
 ## Contributions of The Group Members
 
