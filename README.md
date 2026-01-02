@@ -181,7 +181,7 @@ Clicking on a column header (e.g., Name, ID) sorts the data accordingly.
 
 ---
 
-### My Contributions (ARZU BAL -23050151006)
+### My Contributions (Arzu Bal -23050151006)
 
 In this project, I was responsible for the **Infrastructure and Base Module**, which establishes the foundational structure of the Pet Shelter Management System. My work focused on preparing a stable, reusable, and well-organized base that other modules could build upon.
 
