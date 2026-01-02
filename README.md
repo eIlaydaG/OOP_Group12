@@ -100,15 +100,15 @@ Design Consistency: By manually coding the UI components, I achieved precise con
 
 ---
 
-### MY CONTRIBUTIONS (RÜMEYSA AYHAN - 23050151015)
+### My Contributions (Rümeysa Ayhan - 23050151015)
 
-#### PROJECT OVERVIEW
+#### Project Overwiev
 
 The project is implemented in C++ following object-oriented programming principles and a layered architecture based on the Entity–Service–Controller design. As a group project, the main graphical user interface (GUI) of the application was implemented using the Qt Framework.
 
 For my individual development and testing process, I implemented and tested the Pet Management functionality on macOS using native dialog-based user interaction. This allowed me to verify the correctness of the backend logic independently from the main Qt interface.
 
-#### INDIVIDUAL RESPONSIBILITY
+#### Individual Responsibility
 
 I was responsible – Pet Management Module.
 
@@ -126,8 +126,8 @@ File-based persistence of pet records
 
 These operations are part of the service layer and are independent from the GUI technology.
 
-#### DEVELOPMENT & TESTING ENVIRONMENT  
-#### INDIVIDUAL MACOS IMPLEMENTATION (TESTING)
+#### Development & Testing Environment  
+#### Individual MacOs Implementation (Testing)
 
 During my personal development process, I implemented and tested the Pet Management module on macOS.  
 User interaction was provided via macOS native dialogs using AppleScript (osascript).
@@ -143,7 +143,7 @@ The final project GUI remains Qt-based.
 
 ---
 
-### MY CONTRIBUTIONS (Fatih Kocaay – 21050111071)
+### My Contributions (Fatih Kocaay – 21050111071)
 
 In this project, I primarily focused on GUI development and user interaction enhancements using C++ and the Qt Framework. My contributions aimed to improve usability, input safety, and overall user experience of the application.
 
@@ -181,7 +181,7 @@ Clicking on a column header (e.g., Name, ID) sorts the data accordingly.
 
 ---
 
-### MY CONTRIBUTIONS (ARZU BAL -23050151006)
+### My Contributions (ARZU BAL -23050151006)
 
 In this project, I was responsible for the **Infrastructure and Base Module**, which establishes the foundational structure of the Pet Shelter Management System. My work focused on preparing a stable, reusable, and well-organized base that other modules could build upon.
 
